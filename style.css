@@ -1,39 +1,70 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-    .post{
-        display: flex;
-        flex-direction: column;
-        margin: 71px;
-        padding: 0px;
-        width: 286px;
-        height:379px;
-        background-color: white;
-        }
-          .post-header{
-            display: flex;
-            justify-content: space-between;
-            background-color: white; 
-            padding: 4px;
-            height: 21px;
-          }
-          .iconos{
-            display: flex;
-            justify-content: space-between;
-            padding: 3px;
-          }
-         .post .imagen {
-            display: flex;
-            width: 100%;
-            height: 55%;
-            align-self: center;
-         }
-        body{
-            background-color: beige;
-        }
-        .post .imagen img{
-            width:100%;
-        }
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: 71px;
+  padding: 0px;
+  width: 286px;
+  height: 379px;
+  background-color: white;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 4px;
+  height: 21px;
+}
+
+.iconos {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+.post .imagen {
+  display: flex;
+  width: 100%;
+  height: 55%;
+  align-self: center;
+}
+
+body {
+  background-color: beige;
+}
+
+.post .imagen img {
+  width: 100%;
+}
+
+.parrafos {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 240px;
+  margin: -30px;
+}
+
+.letra-logo {
+  margin: 0px 0px 5px 0px;
+  font-size: 30%;
+}
+
+ .parrafo.Rigoberto{
+  display: flex;
+  position: absolute;
+  top: 95px;
+  font-size: 35px;
+}
+
+.parrafo.html{
+  position: absolute;
+  top: 55px;
+}
